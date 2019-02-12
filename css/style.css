@@ -1372,16 +1372,45 @@ p.help-block li {
     margin: 0 auto;
 }
 .partenaire{
-  width: 420px;
   margin :0 auto;
+  display: table;
 }
 .partenaire img{
   height: 50px;
   padding-left: 20px;
 }
+@media (max-width: 500px){
+  .partenaire img{
+  height: 37px;
+  padding-left: 5px;
+}
+}
+@media (max-width: 1020px){
+  .footer2{
+ display: none !important;
+}
+}
 .footer2{
  background: linear-gradient(45deg, #f83600 0%, #f9d423 100%);
 }
+.footer2 .col{
+  display: contents;
+}
+.footer2 h1{
+  font-size: 17px;
+  margin-bottom: 0;
+}
+.right{
+  margin-bottom: 0;
+  display: inline-flex;
+}
+.right input{
+  max-width: 300px;
+}
+.left{
+  margin-top: 15px;
+}
+
 .newsletter{
   background: #f83600;
   border: 0;
