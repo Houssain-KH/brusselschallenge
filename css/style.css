@@ -1453,3 +1453,14 @@ p.help-block li {
   background: #f9d423;
 }
 /*fin annonce*/
+
+.titreaffiche{
+  color: #fff;
+font-size: 43px !important;
+text-transform: uppercase;
+font-family: 'Russo One', sans-serif;
+background: -webkit-linear-gradient(#f9d423, #f83600);
+    background-clip: border-box;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
